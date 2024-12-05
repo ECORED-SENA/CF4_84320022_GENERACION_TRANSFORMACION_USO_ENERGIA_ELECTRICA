@@ -1,17 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Circuitos eléctricos industriales',
+    descripcionCurso:
+      'El componente formativo aborda circuitos eléctricos industriales, definiendo componentes como resistencias y generadores, conexiones en serie, paralelo y mixtas, y aplicando la Ley de Ohm para calcular voltaje, corriente y resistencia. Incluye ejercicios prácticos con ejemplos detallados de resolución paso a paso, destacando la importancia de analizar circuitos eléctricos para resolver problemas cotidianos relacionados con el consumo y diseño eléctrico.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -31,27 +36,13 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Circuitos eléctricos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Ley de Ohm',
         desarrolloContenidos: true,
       },
     ],
@@ -102,32 +93,101 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Circuitos eléctricos.',
+      referencia:
+        'A Cierta Ciencia. (2022, 5 de septiembre). <em>¿Qué son los Circuitos Eléctricos? Y sus tipos: Serie y Paralelo.</em> [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=GUESpG6inds',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Circuitos eléctricos.',
+      referencia:
+        'Física para todos. (2021). <em>Circuitos eléctricos en Paralelo - Propiedades y ejemplo resuelto.</em> [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=o6EFgt_h8io',
+    },
+    {
+      tema: 'Circuitos eléctricos.',
+      referencia:
+        'Profesor Sergio Llanos. (2015). <em>Circuito en Serie</em>. [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=xGfa28dja10',
+    },
+    {
+      tema: 'Ley de Ohm.',
+      referencia:
+        'Charly Labs. (2014). <em>La Ley de Ohm.</em> [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=m7HY1Or01S0&ab_channel=CharlyLabs',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Circuito eléctrico',
+      significado:
+        'conjunto de elementos conectados que permiten el paso de la energía eléctrica.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Circuito en paralelo',
+      significado:
+        'conexión donde los receptores están conectados entre dos puntos comunes y tienen el mismo voltaje.',
+    },
+    {
+      termino: 'Circuito en serie',
+      significado:
+        'conexión donde la corriente que atraviesa todos los elementos es la misma.',
+    },
+    {
+      termino: 'Condensador',
+      significado:
+        'elemento que almacena energía eléctrica en forma de campo eléctrico.',
+    },
+    {
+      termino: 'Conductor',
+      significado:
+        'material que permite el paso de corriente eléctrica, como el cobre.',
+    },
+    {
+      termino: 'Generador',
+      significado:
+        'dispositivo que convierte diferentes formas de energía en energía eléctrica.',
+    },
+    {
+      termino: 'Interruptor',
+      significado:
+        'dispositivo que abre o cierra un circuito eléctrico de forma manual o automática.',
+    },
+    {
+      termino: 'Ley de Ohm',
+      significado:
+        'relación entre voltaje, corriente y resistencia en un circuito eléctrico expresada como V = I × R.',
+    },
+    {
+      termino: 'Receptor',
+      significado:
+        'elemento que consume energía eléctrica y la transforma en otras formas, como luz o calor.',
+    },
+    {
+      termino: 'Resistencia',
+      significado:
+        'componente que limita el flujo de corriente en un circuito eléctrico.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia: 'Cetina, A. (2001). <em>Electrónica básica</em>. Limusa.',
       link: '',
+    },
+    {
+      referencia:
+        'Domínguez, R. (s.f.). <em>Ejercicios resueltos de análisis de circuitos I</em>. Recuperado de',
+      link:
+        'http://iesrioaguas.files.wordpress.com/2013/03/circuitos-serie-y-paralelo-ejercicios.pdf',
+    },
+    {
+      referencia:
+        'Guillén, J. (s.f.). <em>Electricidad</em>. En <em>Portaleso</em>.',
+      link: 'http://www.portaleso.com/web_magnetismo_3/magnetismo_indice.html',
     },
   ],
   creditos: [
