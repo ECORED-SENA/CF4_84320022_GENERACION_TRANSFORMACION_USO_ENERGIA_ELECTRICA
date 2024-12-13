@@ -16,7 +16,7 @@ export default {
       tema: 'Circuitos eléctricos',
       titulo: 'Cuestionario',
       introduccion:
-        'Identificar los conceptos fundamentales de los circuitos eléctricos, sus componentes, tipos de conexión y la aplicación de la ley de ohm en la resolución de problemas prácticos.',
+        'Identificar los conceptos fundamentales de los circuitos eléctricos, sus componentes, tipos de conexión y la aplicación de la Ley de ohm en la resolución de problemas prácticos.',
       barajarPreguntas: false,
       preguntas: [
         {
