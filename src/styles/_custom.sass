@@ -2,19 +2,24 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    left: 5%
-    bottom: 10%
+    top: 70%
+    right: 59%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    right: 15%
-    bottom: 8%
+    top: 21%
+    right: 85%
+    min-width: 112px
   &-3
-    animation: float1 3s ease-in-out infinite alternate
+    animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 13%
-    right: 20%
-
+    top: 31%
+    right: 12%
+  @media (max-width: 1200px)
+    &-1
+      top: 60%
+    &-2
+      left: 0%
 
 @keyframes float1
   0%
@@ -42,12 +47,17 @@
     img
       margin-left: auto
       max-width: 543px
-.banner-principal .tarjeta
-  background-position: inherit
-  @media screen and (max-width: $bp-max-md)
-    background-image: url(../assets/curso/portada/fondo-banner-principal-md.png) !important
-  @media screen and (max-width: $bp-max-xs)
-    background-image: url(../assets/curso/portada/fondo-banner-principal-movil.png) !important
+
+.contenedor-principal .seccion-principal .banner-principal .tarjeta
+  background-position: left 50%
+  @media (max-width: $bp-max-lg)
+    background-image: url("../assets/curso/portada/fondo-banner-principal_lg.png") !important
+    background-position: left bottom !important
+  @media (max-width: $bp-max-md)
+    background-image: url("../assets/curso/portada/fondo-banner-principal_md.png") !important
+    background-position: left 0% !important
+.banner-interno__fondo
+  background-image: url('../assets/curso/portada/fondo-header-page.jpg') !important
 
 
 //fondos

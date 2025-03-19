@@ -38,7 +38,7 @@
           .cont-text 
             h3 Ejercicios prácticos
     
-    p.fw-bold.mb-4 Ejemplo 1(data-aos="fade-down")
+    p.fw-bold.mb-4(data-aos="fade-down") Ejemplo 1
     
     p.mb-5(data-aos="fade-down") Un circuito eléctrico está formado por una pila de petaca de 4.5 V, una bombilla que tiene una resistencia de 90 Ω, un interruptor y los cables necesarios para unir todos ellos. Se pide una representación gráfica del circuito y que se calcule la intensidad de la corriente que circulará cada vez que cerremos el interruptor.
 

@@ -1,7 +1,7 @@
 export default {
   global: {
-    componenteFormativo: 'Circuitos eléctricos industriales',
-    descripcionCurso:
+    Name: 'Circuitos eléctricos industriales',
+    Description:
       'El componente formativo aborda circuitos eléctricos industriales, definiendo componentes como resistencias y generadores, conexiones en serie, paralelo y mixtas, y aplicando la Ley de Ohm para calcular voltaje, corriente y resistencia. Incluye ejercicios prácticos con ejemplos detallados de resolución paso a paso, destacando la importancia de analizar circuitos eléctricos para resolver problemas cotidianos relacionados con el consumo y diseño eléctrico.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
