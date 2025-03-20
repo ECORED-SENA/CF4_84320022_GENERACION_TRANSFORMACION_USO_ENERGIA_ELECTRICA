@@ -40,7 +40,7 @@
     
     p.fw-bold.mb-4(data-aos="fade-down") Ejemplo 1
     
-    p.mb-5(data-aos="fade-down") Un circuito eléctrico está formado por una pila de petaca de 4.5 V, una bombilla que tiene una resistencia de 90 Ω, un interruptor y los cables necesarios para unir todos ellos. Se pide una representación gráfica del circuito y que se calcule la intensidad de la corriente que circulará cada vez que cerremos el interruptor.
+    p.mb-5(data-aos="fade-down") Un circuito eléctrico está formado por una pila de petaca de 9 V, una bombilla que tiene una resistencia de 180 Ω, un interruptor y los cables necesarios para unir todos ellos. Se pide una representación gráfica del circuito y que se calcule la intensidad de la corriente que circulará cada vez que cerremos el interruptor.
 
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-lg-6
@@ -53,13 +53,13 @@
     .row(data-aos="fade-down")
       .col-lg-6.mb-4.borde-p-1
         p.fw-bold.mb-4 Ejemplo 2
-        p.mb-5 En un circuito con una resistencia y una pila de 20 V circula una corriente de 0.2 A. Calcular el valor de dicha resistencia.
+        p.mb-5 En un circuito con una resistencia y una pila de 30 V circula una corriente de 0.3 A. Calcular el valor de dicha resistencia.
         .fondo-color-sistema-i.p-5.d-inline-flex
           figure
             img(src="@/assets/curso/temas/19.svg",style="max-width: 176px;")
       .col-lg-6.mb-4.ps-4
         p.fw-bold.mb-4 Ejemplo 3
-        p.mb-5 ¿Cuál será la tensión que suministra una pila sabiendo que al conectarla a un circuito que tiene una resistencia de 45 Ω, la intensidad es de 0.1 A?
+        p.mb-5 ¿Cuál será la tensión que suministra una pila sabiendo que al conectarla a un circuito que tiene una resistencia de 60 Ω, la intensidad es de 0.25 A?
         .fondo-color-sistema-i.p-5.d-inline-flex
           figure
             img(src="@/assets/curso/temas/20.svg",style="max-width: 204px;")
@@ -75,15 +75,15 @@
     .row.justify-content-center(data-aos="fade-down")
       .col-lg-10
         .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Figura 5.] Circuito en serie con resistencias y fuente de 90 V
+          p.mb-0 #[b Figura 5.] Circuito en serie con resistencias y fuente de 60 V
         .fondo-color-sistema-i.p-4
           .row
             .col-lg-5
               figure.mb-4.mb-lg-0
-                img.mx-auto(src="@/assets/curso/temas/21.svg",style="max-width: 338px;",alt="Circuito serie con varias resistencias y una fuente de 90 V")
+                img.mx-auto(src="@/assets/curso/temas/21.svg",style="max-width: 338px;",alt="Circuito serie con varias resistencias y una fuente de 60 V")
             .col-lg-7
               p.fw-bold.mb-2 Ejemplo
-              p.mb-4 Calcular la corriente total que circula en el siguiente circuito con cargas en serie, considerando que la fuente es de 90 volts.
+              p.mb-4 Calcular la corriente total que circula en el siguiente circuito con cargas en serie, considerando que la fuente es de 60 volts.
               p.fw-bold.mb-2 Solución:
               p.mb-2 #[b Paso 1:] se suman todas las resistencias para obtener la equivalente:
               p.mb-3 #[em R total = 15 Ω + 10Ω + 5Ω = 20Ω = 50 Ω]
@@ -125,7 +125,7 @@
                 p.mb-4 Para el siguiente circuito, calcular la corriente aportada por las dos fuentes en serie:
                 p.fw-bold.mb-0 Solución:
                 p.mb-3 #[b Paso 1:] se debe obtener el voltaje total del circuito, por lo cual se debe sumar o restar las fuentes de voltajes:
-                p.mb-3 𝐕 𝐭𝐨𝐭𝐚𝐥 = 12V + 5V = 17V
+                p.mb-3 𝐕 𝐭𝐨𝐭𝐚𝐥 = 9V + 12V = 21V
                 p.mb-3 #[b Paso 2:] una vez obtenido el voltaje total, se puede despejar I de la ecuación de la Ley de Ohm y obtener la corriente total aportada por las dos fuentes:
                 math(style="font-weight: bold")
                   mi I
@@ -136,26 +136,26 @@
                   mo =
                   mfrac
                     mrow
-                      mn 17
+                      mn 32
                       mi V
                     mrow
-                      mn 1
+                      mn 1.2
                       mi K
                       mo &#x2126;
                   mo =
-                  mn 17
+                  mn 17.5
                   mi m
                   mi A
               .col-lg-5
                 figure.pt-3
-                  img.mx-auto(src="@/assets/curso/temas/22.svg",style="max-width: 400px;",alt="Circuito con dos fuentes de 12 V y 5 V en serie y resistencia de 1.0 kΩ.")
+                  img.mx-auto(src="@/assets/curso/temas/22.svg",style="max-width: 400px;",alt="Circuito con dos fuentes de 12 V y 9 V en serie y resistencia de 1.2 kΩ.")
             .row.justify-content-center.pt-2
               .col-lg-6.mb-4.mb-lg-0
                 h4.mb-4 Ejemplo 2
-                p.mb-4 Obtener el valor de la resistencia del circuito para que circule una corriente de 2.5 A si se tienen dos fuentes en serie con su valor respectivo:
+                p.mb-4 Obtener el valor de la resistencia del circuito para que circule una corriente de 3 A, si se tienen dos fuentes en serie con su valor respectivo:
                 p.fw-bold.mb-0 Solución:
                 p.mb-2 #[b Paso 1:] obtener el voltaje total:
-                p.mb-3 𝐕 𝐭𝐨𝐭𝐚𝐥 = 25V − 5V = 20V
+                p.mb-3 𝐕 𝐭𝐨𝐭𝐚𝐥 = 30V − 10V = 20V
                 p.mb-3 #[b Paso 2:] calcular la resistencia a partir de la Ley de Ohm con los datos conocidos:
                 math(style="font-weight: bold")
                   mi R
@@ -169,21 +169,21 @@
                       mn 20
                       mi V
                     mrow
-                      mn 2.5
+                      mn 3
                       mi A
                   mo =
-                  mn 8
+                  mn 6.67
                   mo &#x2126;
               .col-lg-5
                 figure.pt-3
-                  img.mx-auto(src="@/assets/curso/temas/23.svg",style="max-width: 400px;",alt="Circuito con fuentes de 25 V y 5 V en serie y resistencia desconocida.")
+                  img.mx-auto(src="@/assets/curso/temas/23.svg",style="max-width: 400px;",alt="Circuito con fuentes de 30 V y 10 V en serie y resistencia desconocida.")
             .row.justify-content-center.pt-2
               .col-lg-6.mb-4.mb-lg-0
                 h4.mb-4 Ejemplo 3
-                p.mb-0 Calcular la corriente que circula por un circuito en serie que tiene una resistencia de carga de 1 Ω y dos fuentes de voltaje directo dispuestas como se observa en el circuito mostrado:
+                p.mb-0 Calcular la corriente que circula por un circuito en serie que tiene una resistencia de carga de 2 Ω y dos fuentes de voltaje directo dispuestas como se observa en el circuito mostrado:
                 p.fw-bold.mb-0 Solución:
                 p.mb-2 #[b Paso 1:] calcular el voltaje total del circuito. Para ello se observa la disposición de las fuentes; se puede ver que las dos son del mismo valor, sin embargo, los puntos en donde se unen son del mismo polo, por lo tanto, se están restando:
-                p.mb-2 𝐕 𝐭𝐨𝐭𝐚𝐥 = 6V − 6V = 0V
+                p.mb-2 𝐕 𝐭𝐨𝐭𝐚𝐥 = 9V − 9V = 0V
                 p.mb-3.fw-bold Sustituyendo:
                 math(style="font-weight: bold")
                   mi I
@@ -194,17 +194,17 @@
                   mo =
                   mfrac
                     mrow
-                      mn 2
+                      mn 0
                       mi V
                     mrow
-                      mn 1
+                      mn 2
                       mo &#x2126;
                   mo =
                   mn 0
                   mi A
               .col-lg-5
                 figure.pt-3
-                  img.mx-auto(src="@/assets/curso/temas/24.svg",style="max-width: 400px;",alt="Circuito con fuentes de 6 V y 6 V en serie y resistencia de 1.0 Ω.")
+                  img.mx-auto(src="@/assets/curso/temas/24.svg",style="max-width: 400px;",alt="Circuito con fuentes de 1 V y 6 V en serie y resistencia de 1.0 Ω.")
 
     .titulo-decorativo.mt-5(data-aos="fade-down")
       .cont-figura
@@ -274,7 +274,7 @@
           .fondo-color-sistema-i.mb-4
             figure
               img(src="@/assets/curso/temas/49.svg",style="max-width: 408px;",alt="Formula de calculo de la corriente total")
-          p.mb-0 puede identificar  utilizando los dos métodos se llega al mismo resultado.
+          p.mb-0 Como se puede identificar, utilizando los dos métodos se llega al mismo resultado.
     
     p.fw-bold.mb-4(data-aos="fade-down") Ejemplo 2
     p.mb-4(data-aos="fade-down") Calcular el voltaje que proporciona la fuente para que exista una corriente de 6 amperes que fluye por todo el circuito de acuerdo al diagrama.
@@ -285,7 +285,7 @@
           p.mb-0 #[b Figura 7.] Circuito con resistencias en paralelo y fuentes desconocidas
         .fondo-color-sistema-i.p-4
           figure
-            img.mx-auto(src="@/assets/curso/temas/31.svg",style="max-width: 654px;",alt="Circuito mixto con resistencias de 3 kΩ en paralelo y 1 kΩ en serie, junto con una fuente desconocida.")
+            img.mx-auto(src="@/assets/curso/temas/31.svg",style="max-width: 654px;",alt="Circuito mixto con resistencias, junto con una fuente desconocida.")
     
     .fondo-personalizado-1.bottom-2.f2.pt-3
       .fondo-personalizado-1__contenido
@@ -330,7 +330,7 @@
         .row.justify-content-center(data-aos="fade-down")
           .col-lg-6
             .titulo-sexto.color-acento-contenido
-              p.mb-0 #[b Figura 9.] Circuito equivalente con resistencia total y fuente de 3.35 kV.
+              p.mb-0 #[b Figura 9.] Circuito equivalente con resistencia total y fuente de 1.99 kV.
             .fondo-color-sistema-i.p-4
               figure
                 img.mx-auto(src="@/assets/curso/temas/38.svg",style="max-width: 542px;",alt="Circuito con una resistencia total de 333.33 Ω y una fuente de 1.99 kV.")
@@ -341,7 +341,7 @@
         h3 Resolución de circuitos mixtos
     
     p.fw-bold.mb-4 Ejemplo 1
-    p.mb-4 Determinar el voltaje que provee la fuente en el siguiente circuito, si existe una corriente circulando de 60 mA.
+    p.mb-4 Determinar el voltaje que provee la fuente en el siguiente circuito, si existe una corriente circulando de 50 mA.
 
     .fondo-personalizado-1.top-1.f2
       .fondo-personalizado-1__contenido.pb-5
@@ -362,11 +362,11 @@
                 .row.justify-content-center.align-items-center.py-5(titulo="Paso 1")
                   .col-lg-6.mb-4.mb-lg-0
                     p.fw-bold.mb-4 Paso 1.
-                    p.mb-0 Se empieza por reducir desde la parte más alejada de la fuente, primeramente por los paralelos, en este caso R6 y R7:
+                    p.mb-0 Se comienza reduciendo desde la parte más alejada de la fuente, primero con los paralelos. En este caso, para R6 y R7:
                 
                   .col-lg-4
                     figure
-                      img.mx-auto(src="@/assets/curso/temas/40.svg",style="max-width: 467px;",alt="Circuito complejo con resistencias en paralelo y en serie, con valores entre 1 Ω y 160 Ω.")
+                      img.mx-auto(src="@/assets/curso/temas/40.svg",style="max-width: 467px;",alt="Circuito complejo con resistencias en paralelo y en serie.")
                 .row.justify-content-center.align-items-center.py-5(titulo="Paso 2")
                   .col-lg-6.mb-4.mb-lg-0
                     p.fw-bold.mb-4 Paso 2.
@@ -374,7 +374,7 @@
                 
                   .col-lg-4
                     figure
-                      img.mx-auto(src="@/assets/curso/temas/41.svg",style="max-width: 467px;",alt="Circuito complejo con resistencias en paralelo y en serie, con valores entre 1 Ω y 160 Ω.")
+                      img.mx-auto(src="@/assets/curso/temas/41.svg",style="max-width: 467px;",alt="Circuito complejo con resistencias en paralelo y en serie.")
                 .row.justify-content-center.py-5(titulo="Paso 3")
                   .col-lg-5.mb-4.mb-lg-0
                     p.fw-bold.mb-4 Paso 3.
@@ -401,21 +401,21 @@
                     p.mb-0 Se realiza el paralelo de R9 y R10:
                   .col-lg-6
                     figure
-                      img.mx-auto(src="@/assets/curso/temas/45.svg",style="max-width: 505px;",alt="Circuito complejo con resistencias en paralelo y en serie, con valores entre 1 Ω y 160 Ω.")
+                      img.mx-auto(src="@/assets/curso/temas/45.svg",style="max-width: 505px;",alt="Circuito complejo con resistencias en paralelo y en serie.")
                 .row.justify-content-center.py-5(titulo="Paso 6")
                   .col-lg-5.mb-4.mb-lg-0
                     p.fw-bold.mb-4 Paso 6.
                     p.mb-0 Ahora que todas las resistencias están en serie, nos disponemos a sumarlas para obtener la resistencia total equivalente:
                   .col-lg-6
                     figure
-                      img.mx-auto(src="@/assets/curso/temas/46.svg",style="max-width: 505px;",alt="Circuito complejo con resistencias en paralelo y en serie, con valores entre 1 Ω y 160 Ω.")
+                      img.mx-auto(src="@/assets/curso/temas/46.svg",style="max-width: 505px;",alt="Circuito complejo con resistencias en paralelo y en serie.")
                 .row.justify-content-center.py-5(titulo="Paso 7")
                   .col-lg-5.mb-4.mb-lg-0
                     p.fw-bold.mb-4 Paso 7.
                     p.mb-0 Por último se calcula el voltaje de la fuente mediante la Ley de Ohm:
                   .col-lg-6
                     figure
-                      img.mx-auto(src="@/assets/curso/temas/47.svg",style="max-width: 315px;",alt="Circuito complejo con resistencias en paralelo y en serie, con valores entre 1 Ω y 160 Ω.")
+                      img.mx-auto(src="@/assets/curso/temas/47.svg",style="max-width: 315px;",alt="Circuito complejo con resistencias en paralelo y en serie.")
           
 
 
