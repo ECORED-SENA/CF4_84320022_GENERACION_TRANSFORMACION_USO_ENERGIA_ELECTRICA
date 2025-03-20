@@ -86,7 +86,7 @@
               p.mb-4 Calcular la corriente total que circula en el siguiente circuito con cargas en serie, considerando que la fuente es de 90 volts.
               p.fw-bold.mb-2 Solución:
               p.mb-2 #[b Paso 1:] se suman todas las resistencias para obtener la equivalente:
-              p.mb-3 #[em R total = 10Ω + 5Ω + 2Ω + 8Ω + 20Ω = 45Ω]
+              p.mb-3 #[em R total = 15 Ω + 10Ω + 5Ω = 20Ω = 50 Ω]
               p.mb-3 #[b Paso 2:] como la incógnita es la corriente, se despeja I de la ecuación de la Ley de Ohm y se sustituye:
               math
                 mi I
@@ -98,13 +98,13 @@
                 mo =
                 mfrac
                   mrow
-                    mn 90
+                    mn 60
                     mi V
                   mrow
-                    mn 45
+                    mn 50
                     mo &#x2126;
                 mo =
-                mn 2
+                mn 1.2
                 mi A
     
     .titulo-decorativo.my-5(data-aos="fade-down")
@@ -235,12 +235,12 @@
           img.mx-auto(src="@/assets/curso/temas/27.svg",style="max-width: 400px;")
         
         p.fw-bold Ejemplo 1
-        p.mb-4 Encontrar la corriente que circula por el circuito mostrado, suponiendo que se tiene una fuente de 12 V.
+        p.mb-4 Encontrar la corriente que circula por el circuito mostrado, suponiendo que se tiene una fuente de 24 V.
 
         .row.justify-content-center
           .col-lg-8
             .titulo-sexto.color-acento-contenido
-              p.mb-0 #[b Figura 6.] Circuito en paralelo con resistencias y fuente de 12 V
+              p.mb-0 #[b Figura 6.] Circuito en paralelo con resistencias y fuente de 24 V
             .fondo-color-sistema-i.p-4
               figure
                 img.mx-auto(src="@/assets/curso/temas/28.svg",style="max-width: 584px;",alt="Circuito paralelo con resistencias de 1.5 kΩ, 10 kΩ, 4.7 kΩ y 100 kΩ conectadas a una fuente de 12 V")
@@ -261,16 +261,20 @@
           p.fw-bold.mb-0 Paso 2.
           p.mb-4 Puesto que la corriente total es la suma de las corrientes individuales, se obtiene la corriente que circula en el circuito:
           p.mb-1 I total = I1 + I2 + I3 + I4
-          p.mb-0 I total = 8 mA + 1.2 mA + 2.55 mA + 0.12 mA = 11.87 mA
+          p.mb-0 I total = 12 mA + 3 mA + 5.11 mA + 0.24 mA = 20.35 mA
         .fondo-color-sistema-i.p-4.p-lg-5
           p.fw-bold.mb-4 Método 2. Calculando la resistencia total
           p.fw-bold.mb-0 Paso 1.
           p.mb-4 Utilizar la suma de recíprocos, se calcula la resistencia total:
-          p.mb-4 [Ecuación]
+          .fondo-color-sistema-i.mb-4
+            figure
+              img(src="@/assets/curso/temas/48.svg",style="max-width: 588px;",alt="Formula de suma de reciprocos")
           p.fw-bold.mb-0 Paso 2.
           p.mb-4 Ahora utilizando la Ley de Ohm se calcula la corriente total:
-          p.mb-2 [Ecuación]
-          p puede identificar  utilizando los dos métodos se llega al mismo resultado.
+          .fondo-color-sistema-i.mb-4
+            figure
+              img(src="@/assets/curso/temas/49.svg",style="max-width: 408px;",alt="Formula de calculo de la corriente total")
+          p.mb-0 puede identificar  utilizando los dos métodos se llega al mismo resultado.
     
     p.fw-bold.mb-4(data-aos="fade-down") Ejemplo 2
     p.mb-4(data-aos="fade-down") Calcular el voltaje que proporciona la fuente para que exista una corriente de 6 amperes que fluye por todo el circuito de acuerdo al diagrama.
@@ -326,7 +330,7 @@
         .row.justify-content-center(data-aos="fade-down")
           .col-lg-6
             .titulo-sexto.color-acento-contenido
-              p.mb-0 #[b Figura 9.] Circuito equivalente con resistencia total y fuente de 1.99 kV.
+              p.mb-0 #[b Figura 9.] Circuito equivalente con resistencia total y fuente de 3.35 kV.
             .fondo-color-sistema-i.p-4
               figure
                 img.mx-auto(src="@/assets/curso/temas/38.svg",style="max-width: 542px;",alt="Circuito con una resistencia total de 333.33 Ω y una fuente de 1.99 kV.")
@@ -383,7 +387,7 @@
                       p.mb-0 #[b Figura 11.] Circuito simplificado tras la reducción de resistencias en paralelo
                     .fondo-color-sistema-i.p-4.d-inline-flex
                       figure
-                        img.mx-auto(src="@/assets/curso/temas/42.svg",style="max-width: 306px;",alt="Variación del circuito complejo, simplificado eliminando algunas resistencias.") 
+                        img.mx-auto(src="@/assets/curso/temas/42.svg",style="max-width: 356px;",alt="Variación del circuito complejo, simplificado eliminando algunas resistencias.") 
                 .row.justify-content-center.py-5(titulo="Paso 4")
                   .col-lg-5.mb-4.mb-lg-0
                     p.fw-bold.mb-4 Paso 4.
